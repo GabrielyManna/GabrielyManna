@@ -1,4 +1,4 @@
-name: Cobrinha rosa e amarela
+name: Status e cobrinha da princesa
 
 on:
   schedule:
@@ -14,6 +14,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - name: Gerar cards de status
+        run: python3 scripts/stats.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}

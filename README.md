@@ -80,10 +80,9 @@ Sou profissional de **financiamento e crédito imobiliário** e estudante de **A
 
 <p align="center">
   <a href="https://github.com/GabrielyManna/Santo-Taquito">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GabrielyManna&repo=Santo-Taquito&bg_color=FFE4EE&title_color=E0568F&text_color=9C2A5E&icon_color=FFD23F&border_color=FF8FBF" />
+    <img src="./assets/projeto.svg" width="420" alt="Projeto Santo-Taquito"/>
   </a>
 </p>
-<p align="center"><i>🌮 Site do restaurante mexicano Santo Taquito — projeto em equipe da faculdade</i></p>
 
 <img src="./assets/divisor.svg" width="100%"/>
 
@@ -91,14 +90,14 @@ Sou profissional de **financiamento e crédito imobiliário** e estudante de **A
 ## 📊 Status da Princesa
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=GabrielyManna&show_icons=true&bg_color=FFF3B0&title_color=E0568F&text_color=9C2A5E&icon_color=FF8FBF&border_color=FF8FBF&custom_title=Poderes%20da%20Princesa&locale=pt-br&include_all_commits=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GabrielyManna&layout=compact&bg_color=FFE4EE&title_color=E0568F&text_color=9C2A5E&border_color=FFD23F&custom_title=Encantos%20Favoritos" />
+  <img height="190" src="https://raw.githubusercontent.com/GabrielyManna/GabrielyManna/output/stats.svg" alt="Status da princesa"/>
+  <img height="190" src="https://raw.githubusercontent.com/GabrielyManna/GabrielyManna/output/langs.svg" alt="Linguagens mais usadas"/>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=GabrielyManna&background=FFE4EE&border=FFD23F&stroke=FF8FBF&ring=E0568F&fire=FFD23F&currStreakNum=9C2A5E&sideNums=9C2A5E&currStreakLabel=E0568F&sideLabels=9C2A5E&dates=C2185B" />
 </p>
 
-<!-- 🐍 Cobrinha animada comendo o gráfico de contribuições (gerada pelo workflow em .github/workflows/snake.yml) -->
+<!-- 🐍 Cobrinha animada comendo o gráfico de contribuições (cards e cobrinha gerados pelo workflow em .github/workflows/snake.yml) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/GabrielyManna/GabrielyManna/output/snake.svg" width="100%" alt="Cobrinha comendo as contribuições"/>
 </p>
