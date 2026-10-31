@@ -14,19 +14,9 @@
   <img src="./assets/heroina.svg" width="300" alt="Princesa estelar ruiva com tiara, asas de borboleta e um coração brilhante"/>
 </p>
 
-## 👑 Ficha da Princesa
-
-Sou profissional de **financiamento e crédito imobiliário** e estudante de **Análise e Desenvolvimento de Sistemas**. Uso minha experiência com processos, documentação e clientes para criar soluções mais eficientes com tecnologia. 🌸
-
-| | |
-|:--|:--|
-| 🌸 **Nome** | Gabriely Moreira Manna |
-| 🦋 **Classe** | Estudante de ADS |
-| 💼 **Origem** | Crédito imobiliário, administrativo e jurídico |
-| 🌟 **Elementos** | Front-End e Banco de Dados |
-| 💛 **Coração** | Unir visão de negócios e tecnologia |
-| 💖 **Dons** | Comunicação assertiva, adaptabilidade, resolução de problemas e foco em resultados |
-
+<p align="center">
+  <img src="./assets/ficha.svg" width="100%" alt="Ficha da Princesa: Gabriely Moreira Manna, estudante de ADS, origem em crédito imobiliário, administrativo e jurídico, elementos Front-End e Banco de Dados"/>
+</p>
 
 <img src="./assets/divisor.svg" width="100%"/>
 
