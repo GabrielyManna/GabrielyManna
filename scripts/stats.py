@@ -5,14 +5,14 @@ USER = os.environ.get("GH_USER", "GabrielyManna")
 TOKEN = os.environ["GH_TOKEN"]
 Q = """query($l:String!){user(login:$l){followers{totalCount}
 contributionsCollection{totalCommitContributions totalPullRequestContributions totalIssueContributions contributionCalendar{totalContributions}}
-repositories(first:100,ownerAffiliations:OWNER,isFork:false){totalCount nodes{name stargazerCount
+repositories(first:100,ownerAffiliations:OWNER){totalCount nodes{name isFork stargazerCount
 languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}}}"""
 req = urllib.request.Request("https://api.github.com/graphql",
     data=json.dumps({"query": Q, "variables": {"l": USER}}).encode(),
     headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json"})
 u = json.load(urllib.request.urlopen(req))["data"]["user"]
 c = u["contributionsCollection"]; repos = u["repositories"]
-stars = sum(r["stargazerCount"] for r in repos["nodes"])
+stars = sum(r["stargazerCount"] for r in repos["nodes"] if not r["isFork"])
 langs = {}
 for r in repos["nodes"]:
     if r["name"].lower() == USER.lower():
