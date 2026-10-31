@@ -5,7 +5,7 @@ USER = os.environ.get("GH_USER", "GabrielyManna")
 TOKEN = os.environ["GH_TOKEN"]
 Q = """query($l:String!){user(login:$l){followers{totalCount}
 contributionsCollection{totalCommitContributions totalPullRequestContributions totalIssueContributions contributionCalendar{totalContributions}}
-repositories(first:100,ownerAffiliations:OWNER,isFork:false){totalCount nodes{stargazerCount
+repositories(first:100,ownerAffiliations:OWNER,isFork:false){totalCount nodes{name stargazerCount
 languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}}}"""
 req = urllib.request.Request("https://api.github.com/graphql",
     data=json.dumps({"query": Q, "variables": {"l": USER}}).encode(),
@@ -15,6 +15,8 @@ c = u["contributionsCollection"]; repos = u["repositories"]
 stars = sum(r["stargazerCount"] for r in repos["nodes"])
 langs = {}
 for r in repos["nodes"]:
+    if r["name"].lower() == USER.lower():
+        continue  # o repositório do perfil não conta como linguagem dela
     for e in r["languages"]["edges"]:
         langs[e["node"]["name"]] = langs.get(e["node"]["name"], 0) + e["size"]
 total = sum(langs.values()) or 1
