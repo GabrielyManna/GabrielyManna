@@ -10,14 +10,11 @@
 <img src="./assets/divisor.svg" width="100%"/>
 
 <!-- 👑 PARTE 2 — A PRINCESA + FICHA -->
-<table align="center">
-  <tr>
-    <td width="45%" align="center">
-      <img src="./assets/heroina.svg" width="280" alt="Princesa estelar ruiva com tiara, asas de borboleta e um coração brilhante"/>
-    </td>
-    <td width="55%">
+<p align="center">
+  <img src="./assets/heroina.svg" width="300" alt="Princesa estelar ruiva com tiara, asas de borboleta e um coração brilhante"/>
+</p>
 
-### 👑 Ficha da Princesa
+## 👑 Ficha da Princesa
 
 Sou profissional de **financiamento e crédito imobiliário** e estudante de **Análise e Desenvolvimento de Sistemas**. Uso minha experiência com processos, documentação e clientes para criar soluções mais eficientes com tecnologia. 🌸
 
@@ -30,9 +27,6 @@ Sou profissional de **financiamento e crédito imobiliário** e estudante de **A
 | 💛 **Coração** | Unir visão de negócios e tecnologia |
 | 💖 **Dons** | Comunicação assertiva, adaptabilidade, resolução de problemas e foco em resultados |
 
-    </td>
-  </tr>
-</table>
 
 <img src="./assets/divisor.svg" width="100%"/>
 
